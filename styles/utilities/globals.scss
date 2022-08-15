@@ -1,0 +1,54 @@
+@import url("https://use.typekit.net/aqg2kkx.css");
+
+@import "./variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    word-break: break-word;
+    font-family: poppins, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    font-weight: inherit;
+}
+
+main {
+
+}
+
+.btn-primary {
+    color: #fff;
+    width: inherit;
+    height: inherit;
+    font-weight: 500;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: 0.07em;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: $primary-color;
+    &--outlined {
+        color: $primary-color;
+        background-color: transparent;
+        border: 3px solid $primary-color;
+    }
+}
