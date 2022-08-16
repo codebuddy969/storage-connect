@@ -1,0 +1,32 @@
+@import url("https://use.typekit.net/aqg2kkx.css");
+
+@import "./utilities/variables.scss";
+@import "./utilities/icons.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    word-break: break-word;
+    font-family: poppins, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    font-weight: inherit;
+}
